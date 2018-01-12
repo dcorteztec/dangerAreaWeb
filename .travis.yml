@@ -4,12 +4,6 @@ language: node_js
 node_js:
   - "6.9"
   
-addons:
-  sonarcloud:
-    organization: "danger_web"
-    token:
-      secure: $danger_web
-      
 branches:
   only:
     - master
