@@ -6,7 +6,7 @@ node_js:
   
 addons:
   sonarcloud:
-    organization: "dcorteztec-github"
+    organization: "danger_web"
     token:
       secure: $SONAR_TOKEN
       
