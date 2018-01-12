@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.org/dcorteztec/dangerAreaWeb.svg?branch=master)](https://travis-ci.org/dcorteztec/dangerAreaWeb)
-
+<BR/>
+[![Maintainability](https://api.codeclimate.com/v1/badges/0e39c7e69c103d30a6bf/maintainability)](https://codeclimate.com/github/dcorteztec/dangerAreaWeb/maintainability)
 # DangerAreaWeb
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.0.
