@@ -21,7 +21,7 @@ export class DatamodelmapService {
 
   // get all base
   getAllBase(): Promise<Datamodelmap[]>{
-    return this.http.get(this.listbasemapLocal).toPromise()
+    return this.http.get(this.listbasemap).toPromise()
     .then(response=>response.json() as Datamodelmap[])
     .catch(this.handleError);
     
