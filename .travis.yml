@@ -3,7 +3,10 @@
 language: node_js
 node_js:
   - "6.11.3"
-  
+
+install:
+  -yarn install v1.1.0
+
 branches:
   only:
     - master
