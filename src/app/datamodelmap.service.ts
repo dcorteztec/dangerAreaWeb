@@ -10,10 +10,10 @@ import 'rxjs/add/operator/toPromise';
 @Injectable()
 export class DatamodelmapService {
 
-  private listbase = 'http://dangerareaservice.herokuapp.com/api/estatistica/furto_celular/listBase';  // URL to web API
-  private listbasemap = 'http://dangerareaservice.herokuapp.com/api/estatistica/furto_celular/listBaseMap';  // URL to web API
-  private listbaseLocal = 'http://localhost:8080/api/estatistica/furto_celular/listBase';  // URL to web API
-  private listbasemapLocal = 'http://localhost:8080/api/estatistica/furto_celular/listBaseMap';
+  private listbase = 'https://dangerareaservice.herokuapp.com/api/estatistica/furto_celular/listBase';  // URL to web API
+  private listbasemap = 'https://dangerareaservice.herokuapp.com/api/estatistica/furto_celular/listBaseMap';  // URL to web API
+  private listbaseLocal = 'https://localhost:8080/api/estatistica/furto_celular/listBase';  // URL to web API
+  private listbasemapLocal = 'https://localhost:8080/api/estatistica/furto_celular/listBaseMap';
   private listTeste = 'https://jsonplaceholder.typicode.com/posts';
   private headers = new Headers({'Content-Type': 'application/json'});
 
